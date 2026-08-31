@@ -5,10 +5,7 @@ export default defineConfig({
   plugins: [react()],
   test: {
     globals: true,
-    environment: 'jsdom',
-    setupFiles: './src/tests/setup.ts',
+    environment: "jsdom",
+    setupFiles: "./src/tests/setup.ts",
   },
-  optimizeDeps: {
-    rollupOptions: { /* ... */ }
-  }
-})
+});
